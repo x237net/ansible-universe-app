@@ -1,0 +1,43 @@
+# galaxy.yml
+# ==========
+#
+# Copying
+# -------
+#
+# Copyright (c) 2024 universe.app authors and contributors.
+#
+# This file is part of the *universe.app* project.
+#
+# *universe.app* is a free software project. You can redistribute it and/or
+# modify it following the terms of the MIT License.
+#
+# This software project is distributed *as is*, WITHOUT WARRANTY OF ANY KIND;
+# including but not limited to the WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+# PARTICULAR PURPOSE and NONINFRINGEMENT.
+#
+# You should have received a copy of the MIT License along with
+# *universe.app*. If not, see <http://opensource.org/licenses/MIT>.
+#
+namespace: "universe"
+name: "app"
+description: "A set of application installation Ansible roles."
+version: "0.1.0"
+readme: "README.md"
+authors:
+  - "See AUTHORS.rst"
+license_file: "LICENSE.rst"
+tags:
+  - "application"
+  - "general"
+  - "installation"
+  - "playbooks"
+repository: "https://github.com/x237net/ansible-universe-app"
+issues: "https://github.com/x237net/ansible-universe-app/issues"
+build_ignore:
+  - ".*"
+  - "*.lock"
+  - "**/.*"
+  - "**/*.lock"
+  - "changelogs/fragments"
+  - "changelogs/fragments/*/**"
+  - "pyproject.toml"
